@@ -13,29 +13,41 @@ body {
 }
 
 h1 {
+    font-family: Georgia;
     color: #fff;
+    text-align: center;
     font-size: 2em;
+    text-transform: uppercase;
     width: 100%;
 }
 
 h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: Georgia;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 100;
     font-size: 22px;
     line-height: 24px;
     padding-bottom: 30px;
     text-align: left;
+    text-transform: capitalize;
 }
 
 p {
+    font-family: Helvetica;
     color: AliceBlue;
+    font-size: 18px;
     line-height: 1.3em;
     text-align: left;
     width: 100%;
 }
 
+p::first-line {
+    font-weight: bold;
+}
+
 .image {
+    background-image: url(C:/Users/ycx/twu-precourse/css-basic/exercise-2/img/background-img.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -45,11 +57,20 @@ p {
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
+    font-style: italic;
+    color: black;
     line-height: 14px;
     margin-left: 20px;
     padding: 10px;
     position: relative;
     top: 80%;
     width: 60%;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.caption a:hover {
+    text-decoration: none;
+    color: purple;
 }
 
