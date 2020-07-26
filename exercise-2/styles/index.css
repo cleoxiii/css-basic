@@ -47,7 +47,7 @@ p::first-line {
 }
 
 .image {
-    background-image: url(C:/Users/ycx/twu-precourse/css-basic/exercise-2/img/background-img.jpg);
+    background-image: url("../img/background-img.jpg");
     background-size: cover;
     background-position: center;
     height: 300px;
